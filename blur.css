@@ -4,6 +4,11 @@
     color: transparent;
     transition: color 0.3s ease, filter 0.3s ease;
   }
+
+  .un-blurred-text {
+    filter: none;
+    color: inherit;
+  }
   
   .blurred-text:hover {
     filter: none;
