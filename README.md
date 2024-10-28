@@ -31,6 +31,14 @@ cd whatsapp-web-blur-extension
 
 ## Usage
 
-1. Open Settings: Click on the extension's options or go to `chrome-extension://<extension_id>/options.html`
-2. Select Preferences: Choose to blur only text, only images, or both
-3. Save and Refresh: After saving, refresh WhatsApp Web to apply the changes
+1. Access Settings
+    - Click on the extension icon in the Chrome toolbar
+    - In the popup that appears, click the "Open Settings" button
+    - This will open a settings page where you can configure whether to blur only text, only images, or both
+
+2. Select Preferences
+    - Choose your blur preferences in the settings page
+    - Save your settings
+
+3. Save and Refresh
+    - After saving, refresh WhatsApp Web to apply the changes
