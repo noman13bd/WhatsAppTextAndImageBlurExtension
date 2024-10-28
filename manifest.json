@@ -1,14 +1,15 @@
 {
   "manifest_version": 3,
   "name": "WhatsApp Blur Texts and Images",
-  "version": "1.1",
-  "description": "Blur recent chat texts and images on WhatsApp Web",
-  "permissions": ["scripting"],
+  "version": "1.2",
+  "description": "Blur recent chat texts and images on WhatsApp Web with customizable settings",
+  "permissions": ["scripting", "storage"],
   "content_scripts": [
     {
       "matches": ["https://web.whatsapp.com/"],
       "js": ["blur.js", "blurImages.js"],
       "css": ["blur.css"]
     }
-  ]
+  ],
+  "options_page": "options.html"
 }
